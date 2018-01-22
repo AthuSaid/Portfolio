@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio",
+  "description": "trial portfolio on heroku",
+  "scripts": {
+    "postdeploy": " Portfolio/index.html"
+  },
+  "env": {
+    "undefined": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
